@@ -1,0 +1,11 @@
+<!DOCTYPE aspectj PUBLIC
+        "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+
+<aspectj>
+    <weaver>
+        <include within="com."/>
+    </weaver>
+    <aspects>
+        <aspect name="com.dianping.pelican.log.PelicanLogger"/>
+    </aspects>
+</aspectj>
